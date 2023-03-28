@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(112, 112, 112);
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar .container {
+    background-color: white;
+}
