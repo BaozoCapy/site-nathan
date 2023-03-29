@@ -3,7 +3,38 @@ body {
 }
 
 .container {
-    background-color: rgb(112, 112, 112);
+    background-color: black;
+}
+
+
+.gg-navbar {
+    background-color: rgba(0, 0, 0, .55);
+    font-family: serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, .54);
+    z-index: 1;
+}
+
+.gg-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.gg-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background-color:var(--bs-teal);
+    ;
 }
 
 .card-title {
@@ -14,10 +45,18 @@ body {
     text-align: center;
 }
 
-.navbar {
-    background-color: black;
+.introduction {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px white;
 }
 
-.navbar .container {
-    background-color: white;
+.image-text {
+    display: flex;
+    align-items: center;
+}
+
+.thetext {
+    display: flex;
+    align-items: center;
 }
