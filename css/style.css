@@ -82,7 +82,33 @@ body {
 .trust-panel .content {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.trust-panel .content .feature {
+    display: flex;
+    align-items: center;
+}
+
+.trust-panel .content .feature .text {
+    line-height: 25px;
+}
+
+.trust-panel .content .feature .text .maintext {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.trust-panel .content .feature .text .subtext {
+    color: light;
+}
+
+
+.spacer {
+    background-color: white;
+    width: 1px;
+    height: 70px;
 }
 
 .panels {
@@ -144,4 +170,11 @@ body {
     text-align: center;
     font-weight: bolder;
     font-size: 4em;
+}
+
+.bestsell {
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
 }
