@@ -178,3 +178,23 @@ body {
     font-size: 3em;
     text-align: center;
 }
+
+.videohollow {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.yasuo{
+width: 100%;
+object-fit: cover;
+}
