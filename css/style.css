@@ -13,12 +13,16 @@ body {
     padding: 0;
 }
 
+.p{
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 .gg-navbar {
     background-color: rgba(0, 0, 0, .55);
     font-family: serif;
     box-shadow: 1px 1px 3px rgba(255, 255, 255, .54);
     z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .gg-navbar .nav-link {
@@ -35,6 +39,7 @@ body {
     color: var(--bs-teal);
     border-color: var(--bs-teal);
     transition: 0.5s;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .btn-order:hover,
@@ -44,18 +49,30 @@ body {
     ;
 }
 
+.carouselText{
+    padding-bottom: 120px !important;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+}
+
 .card-title {
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }
 
 .card-text {
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }
 
 .introduction {
     text-align: center;
     color: #fff;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 2px 2px 2px grey;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
 }
 
 .image-text {
@@ -79,18 +96,7 @@ body {
 .text {
     color: white;
     text-align: center;
-}
-
-.trust-panel .container-fluid {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    max-width: 1200px;
-}
-
-.trust-panel .container-fluid .feature {
-    display: flex;
-    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .trust-panel .container-fluid .feature .text {
@@ -164,6 +170,8 @@ svg .icon {
     text-align: center;
     font-weight: bolder;
     font-size: 4em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }
 
 .bestsell {
@@ -171,9 +179,12 @@ svg .icon {
     font-weight: bolder;
     font-size: 3em;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 25px !important;
+    text-shadow: 2px 2px 2px grey;
 }
 
-.videohollow {
+.videohand {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -186,9 +197,43 @@ h5 {
     font-size: 3em;
     padding-bottom: 5px;
     padding-top: 5px;
+    text-shadow: 2px 2px 2px grey;
 }
 
 .yasuo {
     width: 100%;
     object-fit: cover;
+}
+
+.sardocheText {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.sardocheTitle {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.subtext{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.maintext{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }

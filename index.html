@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GalaxyGame</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    </style>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
@@ -26,14 +29,18 @@
               <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Jeux
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Hollow Knight</a></li>
-                <li><a class="dropdown-item" href="#">Blasphemous</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="hollowknight.html" target="_blank">Hollow Knight</a></li>
+                <li><a class="dropdown-item" href="blasphemous.html" target="_blank">Blasphemous</a></li>
+                <li><a class="dropdown-item" href="ori.html" target="_blank">Ori and the Will of the Wisps</a></li>
+                <li><a class="dropdown-item" href="hades.html" target="_blank">Hadès</a></li>
+                <li><a class="dropdown-item" href="cult.html" target="_blank">Cult of the Lamb</a></li>
+                <li><a class="dropdown-item" href="hand.html" target="_blank">Have a Nice Death</a></li>
+                <li>
               </ul>
             </li>
             <li class="nav-item pe-4">
@@ -58,37 +65,56 @@
       <div class="carousel-item active">
         <img src="img/blasphemous.webp" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
+          <div class="carouselText">
           <h5>Blasphemous</h5>
           <p>Incarnez le Pénitent à la recherche de rédemption...</p>
+        </div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/haveanicedeath.avif" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
+          <div class="carouselText">
           <h5>Have a nice death</h5>
           <p>Vos employés font n'importe quoi ! Allez les corriger.</p>
+        </div>
         </div>
       </div>
 
       <div class="carousel-item">
         <img src="img/hollowknight.webp" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
+          <div class="carouselText">
           <h5>Hollow Knight</h5>
           <p>Un monde dévasté, un chevalier, découvrez donc ce monde magique !</p>
+        </div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/hadescarrousel.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
+          <div class="carouselText">
           <h5>Hadès</h5>
           <p>Faite votre possible pour vous échapper des mains de votre père !</p>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/ori.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <div class="carouselText">
+          <h5>Ori</h5>
+          <p>Retrouvez Ori pour une nouvelle aventure mystérieuse !</p>
+        </div>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/culltofthelamb.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
+          <div class="carouselText">
           <h5>Cult of the Lamp</h5>
           <p>Un mouton, des rituels, que demander de plus ?!</p>
+        </div>
         </div>
       </div>
     </div>
@@ -113,7 +139,7 @@
           </a>
           <div class="card-body">
             <h5 class="card-title">Hollow Knight</h5>
-            <a href="hollowknight.html" target="_blank" class="btn btn-primary float-end">9.99€</a>
+            <a href="hollowknight.html" target="_blank" class="btn btn-dark float-end">9.99€</a>
           </div>
         </div>
       </div>
@@ -125,7 +151,7 @@
           </a>
           <div class="card-body">
             <h5 class="card-title">Blasphemous</h5>
-            <a href="blasphemous.html" target="_blank" class="btn btn-primary float-end">9.99€</a>
+            <a href="blasphemous.html" target="_blank" class="btn btn-dark float-end">9.99€</a>
           </div>
         </div>
       </div>
@@ -136,7 +162,7 @@
           </a>
           <div class="card-body">
             <h5 class="card-title">Hadès</h5>
-            <a href="hades.html" target="_blank" class="btn btn-primary float-end">13.99€</a>
+            <a href="hades.html" target="_blank" class="btn btn-dark float-end">13.99€</a>
           </div>
         </div>
       </div>
@@ -206,7 +232,7 @@
           </a>
           <div class="card-body">
             <h5 class="card-title">Have a Nice Death</h5>
-            <a href="hand.html" target="_blank" class="btn btn-primary float-end">15.99€</a>
+            <a href="hand.html" target="_blank" class="btn btn-dark float-end">15.99€</a>
           </div>
         </div>
       </div>
@@ -217,7 +243,7 @@
           </a>
           <div class="card-body">
             <h5 class="card-title">Cult of the Lamb</h5>
-            <a href="cult.html" target="_blank" class="btn btn-primary float-end">15.99€</a>
+            <a href="cult.html" target="_blank" class="btn btn-dark float-end">15.99€</a>
           </div>
         </div>
       </div>
@@ -228,154 +254,143 @@
           </a>
           <div class="card-body">
             <h5 class="card-title">Ori and the Will of the Wisps</h5>
-            <a href="ori.html" target="_blank" class="btn btn-primary float-end">15.99€</a>
+            <a href="ori.html" target="_blank" class="btn btn-dark float-end">15.99€</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid bg-dark" id="view">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-md-2">
+        <img src="img/sard.jpeg" alt="" class="img-fluid">
+      </div>
+      <div class="col-12 col-md-8 text-align-center">
+        <h4 class="sardocheTitle">Sardoche</h4>
+        <p class="sardocheText">"Des prix compétitifs, des jeux cools, GalaxyGame est l'endroit idéal pour trouver un
+          nouveau jeu auxquels jouer ! Je recommande vivement ce site à tous les amateurs de jeux vidéos !"</p>
+      </div>
+    </div>
+  </div>
 
-    <div class="container">
 
-      <div class="bg-dark text-secondary px-4 " id="view">
-        <div class="py-1">
-          <div class="row align-items-center">
-            <div class="col">
-              <img src="img/sard.jpeg" alt="" style="max-width: 350px;">
-            </div>
-            <div class="col text-center">
-              <h1 class="sardocheText">Sardoche</h1>
-              <p class="sardocheText">Des prix compétitfs, des jeux cools, GalaxyGame est l'endroit idéal pour trouver
-                un
-                nouveau jeu auquels jouer ! Je recommande vivement ce site à tous les amateurs de jeux vidéos !</p>
-            </div>
+  <div class="mesCarte">
+    <div class="container py-3">
+      <div class="row justify-content-around">
+
+        <div class="card text-white bg-dark col-3" style="width: 18rem;">
+          <div class="card-body">
+            <img src="img/pp2.jpeg" alt="">
+            <h5 class="card-title">Rizdax</h5>
+            <p class="card-text">Facile à comprendre, les jeux arrivent ultra vite, GalaxyGame est juste parfait !</p>
           </div>
         </div>
-      </div>
 
-    </div>
+        <div class="card text-white bg-dark col-3" style="width: 18rem;">
+          <div class="card-body">
+            <img src="img/pp1.jpeg" alt="">
+            <h5 class="card-title">God Unlucky</h5>
+            <p class="card-text">J'en pouvais plus de jouer à LoL, et la un super site apparait qui me vend des jeux pas
+              chers, je vous le recommande.</p>
+          </div>
+        </div>
 
-    <div class="mesCarte">
-      <div class="container py-3">
-        <div class="row justify-content-around">
-
-          <div class="card text-white bg-dark col-3" style="width: 18rem;">
-            <div class="card-body">
-              <img src="img/pp2.jpeg" alt="">
-              <h5 class="card-title">Rizdax</h5>
-              <p class="card-text">Facile à comprendre, les jeux arrivent ultra vite, GalaxyGame est juste parfait !</p>
-            </div>
+        <div class="card text-white bg-dark col-3" style="width: 18rem;">
+          <div class="card-body">
+            <img class="yasuo" src="img/pp3.jpeg" alt="">
+            <h5 class="card-title">LVGR</h5>
+            <p class="card-text">Depuis le temps que je veux acheter Hollow Knight, enfin je le trouve à un prix
+              abordable ! Merci GalaxyGame !</p>
           </div>
 
-          <div class="card text-white bg-dark col-3" style="width: 18rem;">
-            <div class="card-body">
-              <img src="img/pp1.jpeg" alt="">
-              <h5 class="card-title">God Unlucky</h5>
-              <p class="card-text">J'en pouvais de jouer à LoL, et la un super site apparait qui me vend des jeux pas
-                chers, je vous le recommande.</p>
-            </div>
-          </div>
-
-          <div class="card text-white bg-dark col-3" style="width: 18rem;">
-            <div class="card-body">
-              <img class="yasuo" src="img/pp3.jpeg" alt="">
-              <h5 class="card-title">LVGR</h5>
-              <p class="card-text">Depuis le temps que je veux acheter Hollow Knight, enfin je le trouve à un prix
-                abordable ! Merci GalaxyGame !</p>
-            </div>
-
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <h2 class="tendance py-4" id="futur">Ils arrivent bientôt !</h2>
+  <h2 class="tendance py-4" id="futur">Ils arrivent bientôt !</h2>
 
-    <div class="panels">
-      <div class="panel hollow2">
+  <div class="panels">
+    <div class="panel hollow2">
 
-      </div>
-      <div class="panel hades2">
-
-      </div>
-      <div class="panel ori3">
-
-      </div>
-      <div class="panel mage">
-
-      </div>
     </div>
+    <div class="panel hades2">
 
-    <h4 class="bestsell py-4" id="tendency">Meilleure Vente</h4>
+    </div>
+    <div class="panel ori3">
 
-    <div class="videohollow">
-      <h5>Have a Nice Death</h5>
-      <iframe width="900" height="460" src="https://www.youtube.com/embed/N9Vs79VcYx0?loop=4&autoplay=1&mute=1"
+    </div>
+    <div class="panel mage">
+
+    </div>
+  </div>
+
+  <h4 class="bestsell py-4" id="tendency">Meilleure Vente</h4>
+
+  <div class="videohand">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="750px" height="500px" src="https://www.youtube.com/embed/N9Vs79VcYx0?loop=1&autoplay=1&mute=1"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     </div>
+  </div>
 
-    <div class="container py-5" id="contact">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-md-10">
-          <div class="card bg-dark text-white">
-            <div class="card-header">
-              <h2>Contactez-nous</h2>
-            </div>
-            <div class="card-body">
-              <form id="contact-form" method="post" action="">
-                <div class="form-group">
-                  <label for="name">Nom</label>
-                  <input type="text" class="form-control" id="name" placeholder="Entez votre nom" required>
-                </div>
-                <div class="form-group">
-                  <label for="email">Adresse Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Entrez votre Email" required>
-                </div>
-                <div class="form-group">
-                  <label for="message">Message</label>
-                  <textarea class="form-control" id="message" rows="6" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Envoyer</button>
-              </form>
-            </div>
+  <div class="container py-5" id="contact">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <div class="card bg-dark text-white">
+          <div class="card-header">
+            <h2>Contactez-nous</h2>
+          </div>
+          <div class="card-body">
+            <form id="contact-form" method="post" action="">
+              <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Entez votre nom" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Adresse Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Entrez votre Email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="6" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="showAlert()" >Envoyer</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container">
-      <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3 light">
-          <li class="nav-item"><a href="" class="nav-link px-2 text-white">Acceuil</a></li>
-          <li class="nav-item"><a href="" class="nav-link px-2 text-white">Catégories</a></li>
-          <li class="nav-item"><a href="" class="nav-link px-2 text-white">Contact</a></li>
-          <li class="nav-item"><a href="" class="nav-link px-2 text-white">Nos partenaires</a></li>
-          <li class="nav-item"><a href="" class="nav-link px-2 text-white">A propos</a></li>
-        </ul>
-        <p class="text-center text-white">© 2023 GamingGalaxy, Inc</p>
-      </footer>
-    </div>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 light">
+        <li class="nav-item"><a href="" class="nav-link px-2 text-white">Acceuil</a></li>
+        <li class="nav-item"><a href="" class="nav-link px-2 text-white">Nous Rejoindre</a></li>
+        <li class="nav-item"><a href="" class="nav-link px-2 text-white">Nos Partenaires</a></li>
+        <li class="nav-item"><a href="" class="nav-link px-2 text-white">A propos</a></li>
+      </ul>
+      <p class="text-center text-white">© 2023 GamingGalaxy, Inc</p>
+    </footer>
+  </div>
 
-    <script>
-      document.getElementById("contact-form").addventListener("submit", fucntion(event)) {
-        event.preventDefault();
+  <script>
+    document.getElementById("contact-form").addventListener("submit", fucntion(event)) {
+      event.preventDefault();
 
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var message = document.getElementById("message").value;
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+    };
+  </script>
 
-        alert("Votre message a été envoyé avec succès !")
-        document.getElementById("contact-form").reset();
-      };
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
