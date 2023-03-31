@@ -71,40 +71,44 @@ body {
 .trust-panel {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: space-between;
     background-size: cover;
     padding: 40px 0;
 }
 
 .text {
     color: white;
+    text-align: center;
 }
 
-.trust-panel .content {
+.trust-panel .container-fluid {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1200px;
 }
 
-.trust-panel .content .feature {
+.trust-panel .container-fluid .feature {
     display: flex;
     align-items: center;
 }
 
-.trust-panel .content .feature .text {
+.trust-panel .container-fluid .feature .text {
     line-height: 25px;
 }
 
-.trust-panel .content .feature .text .maintext {
+.trust-panel .container-fluid .feature .text .maintext {
     font-size: 23px;
     font-weight: 700;
 }
 
-.trust-panel .content .feature .text .subtext {
+.trust-panel .container-fluid .feature .text .subtext {
     color: light;
 }
 
+svg .icon {
+    justify-content: center;
+}
 
 .spacer {
     background-color: white;
@@ -115,8 +119,8 @@ body {
 
 .panels {
     background-color: grey;
-    height: 99vh;
-    width: 99vw;
+    height: 98.5vh;
+    width: 98.5vw;
 
     display: flex;
 }
@@ -175,7 +179,7 @@ body {
     align-items: center;
 }
 
-h5{
+h5 {
     text-align: center;
     color: white;
     font-weight: bolder;
@@ -184,13 +188,7 @@ h5{
     padding-top: 5px;
 }
 
-.yasuo{
-width: 100%;
-object-fit: cover;
-}
-
-.bi{
-    display: flex;
-    align-items: center;
-    justify-content: end;
+.yasuo {
+    width: 100%;
+    object-fit: cover;
 }
