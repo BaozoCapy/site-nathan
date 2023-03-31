@@ -10,6 +10,7 @@ body {
 
 .container {
     background-color: black;
+    padding: 0;
 }
 
 
@@ -109,12 +110,13 @@ body {
     background-color: white;
     width: 1px;
     height: 70px;
+    padding-left: 2px;
 }
 
 .panels {
     background-color: grey;
-    height: 100vh;
-    width: 100vw;
+    height: 99vh;
+    width: 99vw;
 
     display: flex;
 }
@@ -126,7 +128,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: flex .7 ease-in-out;
+    transition: flex 0.7s ease-in-out;
 
     display: flex;
     justify-content: center;
@@ -134,11 +136,7 @@ body {
 }
 
 .panel:hover {
-    flex: 4;
-}
-
-.panel:hover>.titreJeu {
-    opacity: 100%;
+    flex: 3;
 }
 
 .hollow2 {
@@ -153,16 +151,8 @@ body {
     background-image: url(../img/ori3.jpeg);
 }
 
-.blasphemous2 {
-    background-image: url(../img/bl2.jpeg);
-}
-
-.titreJeu {
-    color: white;
-    font-weight: bolder;
-    font-size: 3em;
-    opacity: 0%;
-    transition: opacity 1s;
+.mage {
+    background-image: url(../img/mage.avif);
 }
 
 .tendance {
@@ -197,4 +187,10 @@ h5{
 .yasuo{
 width: 100%;
 object-fit: cover;
+}
+
+.bi{
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
