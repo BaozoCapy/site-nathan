@@ -2,19 +2,20 @@ html,
 body {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body {
     background-color: black;
 }
 
+.p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .container {
     background-color: black;
     padding: 0;
-}
-
-.p{
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 .gg-navbar {
@@ -32,38 +33,36 @@ body {
 
 .gg-navbar .nav-link:hover {
     padding-bottom: 20px;
-    border-bottom-color: var(--bs-teal);
+    border-bottom-color: white;
 }
 
 .btn-order {
-    color: var(--bs-teal);
-    border-color: var(--bs-teal);
+    color: white;
+    border-color: white;
     transition: 0.5s;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .btn-order:hover,
 .btn-order:active {
-    color: #fff;
-    background-color: var(--bs-teal);
+    color: black;
+    background-color: white;
     ;
 }
 
-.carouselText{
+.carouselText {
     padding-bottom: 120px !important;
     text-shadow: 2px 2px 2px black;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
-.card-title {
+h2 {
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 2px 2px 2px grey;
-}
-
-.card-text {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+    padding-bottom: 5px;
+    padding-top: 5px;
     text-shadow: 2px 2px 2px grey;
 }
 
@@ -72,17 +71,35 @@ body {
     color: #fff;
     text-shadow: 2px 2px 2px grey;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: larger;
+    font-size: 1.5em;
 }
 
-.image-text {
-    display: flex;
-    align-items: center;
+.card-title {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+    font-weight: bolder;
+    font-size: 3em;
 }
 
-.thetext {
-    display: flex;
-    align-items: center;
+.card-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.linkSite {
+    transition: 0.5s;
+    opacity: 0%;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px
+}
+
+.linkSite:hover {
+    opacity: 100%;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+
 }
 
 .trust-panel {
@@ -103,24 +120,47 @@ body {
     line-height: 25px;
 }
 
-.trust-panel .container-fluid .feature .text .maintext {
-    font-size: 23px;
-    font-weight: 700;
+.subtext {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }
 
-.trust-panel .container-fluid .feature .text .subtext {
-    color: light;
+.maintext {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }
 
-svg .icon {
+.yasuo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sardocheText {
+    text-align: center;
     justify-content: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
 }
 
-.spacer {
-    background-color: white;
-    width: 1px;
-    height: 70px;
-    padding-left: 2px;
+.sardocheTitle {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px grey;
+}
+
+h4 {
+    font-size: 2em !important;
+    padding-top: 2px !important;
 }
 
 .panels {
@@ -197,43 +237,5 @@ h5 {
     font-size: 3em;
     padding-bottom: 5px;
     padding-top: 5px;
-    text-shadow: 2px 2px 2px grey;
-}
-
-.yasuo {
-    width: 100%;
-    object-fit: cover;
-}
-
-.sardocheText {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size: 27px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 2px 2px 2px grey;
-}
-
-.sardocheTitle {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size: 35px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px grey;
-}
-
-.subtext{
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 2px 2px 2px grey;
-}
-
-.maintext{
-    font-size: 30px;
-    font-weight: bolder;
-    font-family: 'Josefin Sans', sans-serif;
     text-shadow: 2px 2px 2px grey;
 }
