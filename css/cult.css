@@ -66,13 +66,14 @@ h2 {
     text-shadow: 2px 2px 2px grey;
 }
 
-.introduction {
-    text-align: center;
-    color: #fff;
-    text-shadow: 2px 2px 2px grey;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5em;
-}
+.description-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
 
 .card-title {
     text-align: center;
@@ -102,132 +103,15 @@ h2 {
 
 }
 
-.trust-panel {
-    display: flex;
-    justify-content: center;
-    align-items: space-between;
-    background-size: cover;
-    padding: 40px 0;
-}
-
 .text {
     color: white;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.trust-panel .container-fluid .feature .text {
-    line-height: 25px;
-}
-
-.subtext {
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 1px 1px grey;
-}
-
-.maintext {
-    font-size: 30px;
-    font-weight: bolder;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 1px 1px grey;
-}
-
-.yasuo {
-    width: 100%;
-    object-fit: cover;
-}
-
-.sardocheText {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size: 27px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 1px 1px grey;
-}
-
-.sardocheTitle {
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-size: 35px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px grey;
-}
-
 h4 {
     font-size: 2em !important;
     padding-top: 2px !important;
-}
-
-.panels {
-    background-color: grey;
-    height: 98.5vh;
-    width: 98.5vw;
-
-    display: flex;
-}
-
-.panel {
-    height: 100%;
-    flex: 1;
-
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: flex 0.7s ease-in-out;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.panel:hover {
-    flex: 3;
-}
-
-.hollow2 {
-    background-image: url(../img/hsilksong.jpeg);
-}
-
-.hades2 {
-    background-image: url(../img/hades2.jpeg);
-}
-
-.ori3 {
-    background-image: url(../img/ori3.jpeg);
-}
-
-.mage {
-    background-image: url(../img/mage.avif);
-}
-
-.tendance {
-    color: white;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 4em;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 2px 2px 2px grey;
-}
-
-.bestsell {
-    color: white;
-    font-weight: bolder;
-    font-size: 3em;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 25px !important;
-    text-shadow: 2px 2px 2px grey;
-}
-
-.videohand {
-    display: grid;
-    justify-content: center;
-    align-items: center;
 }
 
 h5 {

@@ -5,18 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GalaxyGame</title>
+  <title>Hollow Knight</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
   </style>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hollowknight.css">
 </head>
 
 <body>
   <header>
-    <nav class="gg-navbar navbar navbar-expand-lg fixed-top navbar-dark w-100" >
+    <nav class="gg-navbar navbar navbar-expand-lg fixed-top navbar-dark w-100">
       <div class="container-fluid">
         <a class="navbar-brand text-uppercase fw-bolder mx-4 py-3" href="index.html">GalaxyGame</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item pe-4">
-              <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -34,23 +34,14 @@
                 Jeux
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="hollowknight.html" target="_blank">Hollow Knight</a></li>
-                <li><a class="dropdown-item" href="blasphemous.html" target="_blank">Blasphemous</a></li>
-                <li><a class="dropdown-item" href="ori.html" target="_blank">Ori and the Will of the Wisps</a></li>
-                <li><a class="dropdown-item" href="hades.html" target="_blank">Hadès</a></li>
-                <li><a class="dropdown-item" href="cult.html" target="_blank">Cult of the Lamb</a></li>
-                <li><a class="dropdown-item" href="hand.html" target="_blank">Have a Nice Death</a></li>
+                <li><a class="dropdown-item" href="hollowknight.html">Hollow Knight</a></li>
+                <li><a class="dropdown-item" href="blasphemous.html">Blasphemous</a></li>
+                <li><a class="dropdown-item" href="ori.html">Ori and the Will of the Wisps</a></li>
+                <li><a class="dropdown-item" href="hades.html">Hadès</a></li>
+                <li><a class="dropdown-item" href="cult.html">Cult of the Lamb</a></li>
+                <li><a class="dropdown-item" href="hand.html">Have a Nice Death</a></li>
                 <li>
               </ul>
-            </li>
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="#view">Avis</a>
-            </li>
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="#futur">Prochainement</a>
-            </li>
-            <li class="nav-item pe-4">
-              <a class="nav-link" href="#tendency">Tendance</a>
             </li>
             <li class="nav-item pe-4">
               <a class="btn btn-order rounded-0" href="#contact">Nous contacter</a>
@@ -62,26 +53,8 @@
 
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/blasphemous.webp" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="carouselText">
-            <h2>Blasphemous</h2>
-            <p>Incarnez le Pénitent à la recherche de rédemption...</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/haveanicedeath.avif" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="carouselText">
-            <h2>Have a nice death</h2>
-            <p>Vos employés font n'importe quoi ! Allez les corriger.</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="carousel-item">
+      <div class="carousel-item active">
         <img src="img/hollowknight.webp" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <div class="carouselText">
@@ -90,146 +63,176 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="img/hadescarrousel.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="carouselText">
-            <h2>Hadès</h2>
-            <p>Faite votre possible pour vous échapper des mains de votre père !</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/ori.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="carouselText">
-            <h2>Ori</h2>
-            <p>Retrouvez Ori pour une nouvelle aventure mystérieuse !</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/culltofthelamb.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class="carouselText">
-            <h2>Cult of the Lamp</h2>
-            <p>Un mouton, des rituels, que demander de plus ?!</p>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 
 
-  <div class="container py-5">
-
-    <p class="introduction">Bienvenue sur GalaxyGame, votre destination en ligne pour les meilleurs jeux à prix réduit !
-      Nous sommes ravis de vous proposer une sélection de jeux de qualité, y compris des titres populaires tels que
-      Hollow Knight, Ori and the Will of the Wisps, Blasphemous, Have a Nice Death, Hades et Cult fo the Lamb !</p>
-    <p class="introduction">Chez GalaxyGame, nous sommes passionnés par les jeux vidéo et nous sommes fiers de vous
-      offrir une expérience de magasinage en ligne facile et agréable. Nous travaillons directement avec les éditeurs
-      pour vous offrir les meilleurs prix possibles, ce qui signifie que vous pouvez obtenir les derniers jeux à des
-      prix avantageux !</p>
-
-    <div class="row row-cols-1 row-cols-md-3 g-5 py-3">
-      <div class="col">
-        <div class="card card-hover" id="game">
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="card-body">
           <a href="https://www.hollowknight.com/" target="_blank" style="position: relative;">
             <img src="img/hollowknight.jpg" class="card-img-top" alt="...">
             <div class="linkSite position-absolute top-50 start-50 translate-middle text-white fw-bold"
               style="z-index: 1;">Site officiel</div>
           </a>
-          <div class="card-body">
-            <h3 class="card-title">Hollow Knight</h3>
-            <a href="hollowknight.html" target="_blank" class="btn btn-dark float-end">9.99€</a>
-          </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card card-hover">
-          <a href="https://thegamekitchen.com/blasphemous/" target="_blank" style="position: relative;">
-            <img src="img/blasphemous2.webp" class="card-img-top" alt="...">
-            <div class="linkSite position-absolute top-50 start-50 translate-middle text-white fw-bold"
-              style="z-index: 1;">Site officiel</div>
-          </a>
-          <div class="card-body">
-            <h3 class="card-title">Blasphemous</h3>
-            <a href="blasphemous.html" target="_blank" class="btn btn-dark float-end">9.99€</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <a href="https://www.supergiantgames.com/games/hades/" target="_blank" style="position: relative;">
-            <img src="img/hades.jpg" class="card-img-top" alt="...">
-            <div class="linkSite position-absolute top-50 start-50 translate-middle text-white fw-bold"
-              style="z-index: 1;">Site officiel</div>
 
-          </a>
-          <div class="card-body">
-            <h3 class="card-title">Hadès</h3>
-            <a href="hades.html" target="_blank" class="btn btn-dark float-end">13.99€</a>
+
+      <div class="col-lg-6">
+        <div class="card-body bg-dark">
+          <div class="card-text py-3">
+            <h1 class="fw-bold mb-4">Hollow Knight</h1>
+            <p class="lead mb-4">Partez à l'aventure d'Hallownest avec le Chevalier.</p>
+            <div class="mb-4">
+              <h2 class="fw-bold mb-2">Prix</h2>
+              <p class="h3">9.99€</p>
+            </div>
+            <button type="button" class="btn btn-buy btn-lg mb-4 ">Acheter maintenant</button>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid">
-    <div class=" row trust-panel bg-dark">
-
-      <div class="feature fast col-4">
-
-
-        <div class="text">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="orange" class="icon" width="10vh" viewBox="0 0 16 16">
-            <path
-              d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z" />
-            <path
-              d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415z" />
-          </svg>
-
-          <div class="maintext">Fiable</div>
-          <div class="subtext">Satisfaction garantie</div>
-        </div>
-
-      </div>
-      <div class="feature safe col-4">
-
-
-
-        <div class="text">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="orange" class="icon" width="10vh" viewBox="0 0 16 16">
-            <path
-              d="M4.406 1.342A5.53 5.53 0 0 1 8 0c2.69 0 4.923 2 5.166 4.579C14.758 4.804 16 6.137 16 7.773 16 9.569 14.502 11 12.687 11H10a.5.5 0 0 1 0-1h2.688C13.979 10 15 8.988 15 7.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 2.825 10.328 1 8 1a4.53 4.53 0 0 0-2.941 1.1c-.757.652-1.153 1.438-1.153 2.055v.448l-.445.049C2.064 4.805 1 5.952 1 7.318 1 8.785 2.23 10 3.781 10H6a.5.5 0 0 1 0 1H3.781C1.708 11 0 9.366 0 7.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z" />
-            <path
-              d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
-          </svg>
-          <div class="maintext">Rapide</div>
-          <div class="subtext">Téléchargement instantané</div>
-        </div>
-
-      </div>
-
-      <div class="feature trustpilot col-4">
-
-
-
-        <div class="text">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="orange" class="icon" width="10vh" viewBox="0 0 16 16">
-            <path
-              d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
-          </svg>
-          <div class="maintext">Satisfaction</div>
-          <div class="subtext">99% clients satifaits</div>
-        </div>
-      </div>
-    </div>
+  <div class="about">
+    <h2>À Propos</h2>
+    <p>Hollow Knight est un jeu vidéo d'action et d'aventure développé et édité par Team Cherry.</p>
+    <p>Le gameplay de Hollow Knight est centré sur l'exploration, la résolution de puzzles et les combats contre
+      des ennemis variés et redoutables...</p>
+    <a href="#description">Voir plus</a>
   </div>
 
+  <h2 class="titleImage pt-5">Visuels</h2>
 
   <div class="container py-5">
+    <div class="row">
+      <div class="col-6">
+        <div class="card">
+          <img src="img/hollowGameplay.jpeg" alt="God of War 1">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card">
+          <img src="img/hollowGameplay2.jpeg" alt="God of War 2">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="img/hollowGameplay2.jpeg" alt="God of War 2">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="img/hollowGameplay2.jpeg" alt="God of War 2">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="img/hollowGameplay2.jpeg" alt="God of War 2">
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <img src="img/hollowGameplay2.jpeg" alt="God of War 2">
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <h2 class="fw-bold mb-2">Configuration système requise</h2>
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-6">
+
+        <p>Minimum:</p>
+        <ul>
+          <li>Système d'exploitation : Windows 7</li>
+          <li>Processeur : Intel Core 2 Duo E5200/li>
+          <li>Mémoire vive : 4 Go de RAM</li>
+          <li>Carte graphique : Nvidia GeForce 9800GTX+ (1 Go)
+          </li>
+          <li>9 Go d'espace disponible</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <p>Recommandée:</p>
+        <ul>
+          <li>Système d'exploitation : Windows 10</li>
+          <li>Processeur : Intel Core i5</li>
+          <li>Mémoire vive : Intel Core i5</li>
+          <li>Carte graphique : Nvidia GeForce GTX 560 ou AMD Radeon HD 6950
+          </li>
+          <li>Espace disque : 9 Go d'espace disponible
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="description-container" id="description">
+    <h2>Description</h2>
+    <div class="description-content">
+      <h3>Description</h3>
+      <p>Hollow Knight est un jeu de plateforme épique et captivant, avec une esthétique magnifique et une histoire
+        profonde qui vous tiendra en haleine tout au long de votre aventure. Vous incarnez un petit chevalier insecte,
+        qui explore un monde souterrain obscur et dangereux rempli de secrets et de mystères.</p>
+      <img src="img/hollowgif3.gif" alt="" class="gif" loop autoplay>
+      <h3>Gameplay</h3>
+      <p>Le gameplay de Hollow Knight est incroyablement satisfaisant, avec une mécanique de combat fluide et des
+        mouvements acrobatiques rapides qui vous permettent de vous déplacer avec agilité à travers les ennemis et les
+        obstacles. Mais ce n'est pas seulement un jeu de combat - vous devrez également résoudre des énigmes et
+        collecter des objets pour progresser dans l'histoire.</p>
+      <img src="img/hollowgif1.gif" alt="" class="gif" loop autoplay>
+      <h3>Graphisme</h3>
+      <p>Les graphismes de Hollow Knight sont tout simplement sublimes, avec des environnements dessinés à la main et
+        une animation fluide qui donne vie à chaque personnage et chaque créature dans le monde du jeu. Et la musique
+        est tout aussi épique, avec une bande sonore originale qui vous transportera dans un autre monde.</p>
+      <img src="img/hollowgif2.gif" alt="" class="gif" loop autoplay>
+      <h3>Durée</h3>
+      <p>Avec une durée de jeu de plus de 30 heures, Hollow Knight offre une expérience de jeu riche et immersive qui
+        vous gardera accroché jusqu'à la fin. Si vous cherchez un jeu de plateforme profond, sombre et magnifique, ne
+        cherchez pas plus loin que Hollow Knight - un véritable joyau du genre. Alors, plongez dans ce monde souterrain
+        et découvrez ses secrets les plus sombres !</p>
+      <img src="img/hollowgif4.gif" alt="" class="gif" loop autoplay>
+    </div>
+  </div>
+
+  <h2>Avis des joueurs</h2>
+
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card bg-dark">
+          <img src="img/pp1.jpeg" alt="" style="width: 5rem;" class="profil">
+          <p class="text">"Chef-d'œuvre absolu, graphismes magnifiques, musique envoûtante, histoire captivante."</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-dark">
+          <img src="img/pp2.jpeg" alt="" style="width: 5rem;" class="profil">
+          <p class="text">"Riche, unique, combats fluides, secrets à découvrir, parfait pour les fans de plateforme."</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-dark">
+          <img src="img/pp3.jpeg" alt="" style="width: 5rem;" class="profil">
+          <p class="text">"Incroyable, narration magnifique, mécaniques de jeu bien pensées, ennemis variés, bosses épiques."</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card bg-dark">
+          <img src="img/pp3.png" alt="" style="width: 5rem;" class="profil">
+          <p class="text">"L'un des meilleurs jeux de plateforme, niveaux bien conçus, combats passionnants, histoire prenante."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <h2>Produits Similaires</h2>
     <div class="row row-cols-1 row-cols-md-3 g-5 py-3">
       <div class="col">
         <div class="card">
@@ -276,85 +279,10 @@
     </div>
   </div>
 
-  <div class="container-fluid bg-dark" id="view">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-12 col-md-2">
-        <img src="img/sard.jpeg" alt="" class="img-fluid">
-      </div>
-      <div class="col-12 col-md-8 text-align-center">
-        <h2 class="sardocheTitle">Sardoche</h2>
-        <p class="sardocheText">"Des prix compétitifs, des jeux cools, GalaxyGame est l'endroit idéal pour trouver un
-          nouveau jeu auxquels jouer ! Je recommande vivement ce site à tous les amateurs de jeux vidéos !"</p>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="mesCarte">
-    <div class="container py-3">
-      <div class="row justify-content-around">
-
-        <div class="card text-white bg-dark col-3" style="width: 18rem;">
-          <div class="card-body">
-            <img src="img/pp2.jpeg" alt="">
-            <h4 class="card-title">Rizdax</h4>
-            <p class="card-text">Facile à comprendre, les jeux arrivent ultra vite, GalaxyGame est juste parfait !</p>
-          </div>
-        </div>
-
-        <div class="card text-white bg-dark col-3" style="width: 18rem;">
-          <div class="card-body">
-            <img src="img/pp1.jpeg" alt="">
-            <h4 class="card-title">God Unlucky</h4>
-            <p class="card-text">J'en pouvais plus de jouer à LoL, et la un super site apparait qui me vend des jeux pas
-              chers, je vous le recommande.</p>
-          </div>
-        </div>
-
-        <div class="card text-white bg-dark col-3" style="width: 18rem;">
-          <div class="card-body">
-            <img class="yasuo" src="img/pp3.jpeg" alt="">
-            <h4 class="card-title">LVGR</h4>
-            <p class="card-text">Depuis le temps que je veux acheter Hollow Knight, enfin je le trouve à un prix
-              abordable ! Merci GalaxyGame !</p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <h2 class="tendance py-4" id="futur">Prochainement sur GalaxyGame !</h2>
-
-  <div class="panels">
-    <div class="panel hollow2">
-
-    </div>
-    <div class="panel hades2">
-
-    </div>
-    <div class="panel ori3">
-
-    </div>
-    <div class="panel mage">
-
-    </div>
-  </div>
-
-  <h2 class="bestsell py-4" id="tendency">Meilleure Vente</h2>
-
-  <div class="videohand">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" width="750px" height="500px"
-        src="https://www.youtube.com/embed/N9Vs79VcYx0?loop=1&autoplay=1&mute=1" title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-    </div>
-  </div>
 
   <div class="container py-5" id="contact">
-    <h1 class="mb-5">Formulaire de contact</h1>
+    <h2 class="mb-5">Contactez GalaxyGame</h2>
+    <p class="textContact">Envie d'un nouveau jeu ? Ou simple questionnement ? N'hésitez pas à nous contacter !</p>
     <form id="contact-form">
       <div class="row mb-3">
         <div class="col-md-6">
