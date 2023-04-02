@@ -14,6 +14,11 @@ body {
     text-align: center;
 }
 
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 .container {
     background-color: black;
     padding: 0;
@@ -103,20 +108,6 @@ a {
     height: 200px;
 }
 
-.card-title {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 1px 1px grey;
-    font-weight: bolder;
-    font-size: 3em;
-}
-
-.card-text {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 2px 2px 2px grey;
-}
-
 .card-body {
     border-radius: 5px;
 }
@@ -137,7 +128,15 @@ a {
 
 .profil {
     margin: 0 auto;
-    display: block;    
+    display: block;
+}
+
+.need {
+    text-align: center;
+}
+
+.need2 {
+    text-align: center;
 }
 
 .text {
@@ -163,7 +162,21 @@ h5 {
 
 .textContact {
     font-family: 'Josefin Sans', sans-serif;
-        text-align: center;
-        font-weight: bold;
-        text-shadow: 1px 1px 1px grey;
-    }
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.card-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}

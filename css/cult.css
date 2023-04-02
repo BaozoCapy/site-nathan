@@ -11,6 +11,12 @@ body {
 
 .p {
     font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .container {
@@ -66,27 +72,44 @@ h2 {
     text-shadow: 2px 2px 2px grey;
 }
 
+.btn-buy {
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-buy:hover,
+.btn-buy:active {
+    color: black;
+    background-color: white;
+    ;
+}
+
+.about {
+    text-align: center;
+}
+
+a {
+    color: grey;
+}
+
 .description-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-
-.card-title {
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 1px 1px grey;
-    font-weight: bolder;
-    font-size: 3em;
 }
 
-.card-text {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 2px 2px 2px grey;
+.gif {
+    width: 400px;
+    height: 200px;
+}
+
+.card-body {
+    border-radius: 5px;
 }
 
 .linkSite {
@@ -101,6 +124,19 @@ h2 {
     text-shadow: 2px 2px 2px black;
     font-size: 30px;
 
+}
+
+.profil {
+    margin: 0 auto;
+    display: block;
+}
+
+.need {
+    text-align: center;
+}
+
+.need2 {
+    text-align: center;
 }
 
 .text {
@@ -121,5 +157,26 @@ h5 {
     font-size: 3em;
     padding-bottom: 5px;
     padding-top: 5px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.textContact {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.card-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
     text-shadow: 2px 2px 2px grey;
 }
