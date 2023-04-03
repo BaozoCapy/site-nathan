@@ -90,6 +90,14 @@ h2 {
     text-align: center;
 }
 
+.stars {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
 a {
     color: grey;
 }
