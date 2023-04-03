@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    overflow-x: none;
 }
 
 body {
@@ -83,14 +84,17 @@ h2 {
 .btn-buy:active {
     color: black;
     background-color: white;
+    ;
 }
 
-.stars{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    color: white;
+.card-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.col-buy {
+    width: 100%;
 }
 
 .about {
@@ -138,6 +142,14 @@ a {
     display: block;
 }
 
+.stars {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
 .need {
     text-align: center;
 }
@@ -161,7 +173,7 @@ h5 {
     text-align: center;
     color: white;
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 1.5em;
     padding-bottom: 5px;
     padding-top: 5px;
     text-shadow: 2px 2px 2px grey;
@@ -182,12 +194,6 @@ h5 {
     font-size: 3em;
 }
 
-.card-text {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 2px 2px 2px grey;
-}
-
-#description {
+#decouverte {
     scroll-margin-top: 55px;
 }

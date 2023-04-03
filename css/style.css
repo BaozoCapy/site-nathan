@@ -164,7 +164,7 @@ h4 {
     padding-top: 20px !important;
 }
 
-.stars{
+.stars {
     display: flex;
     justify-content: center;
     padding-bottom: 5px;
@@ -197,19 +197,19 @@ h4 {
 }
 
 .hollow2 {
-    background-image: url(../img/hsilksong.jpeg);
+    background-image: url(../img/hollow/hsilksong.jpg);
 }
 
 .hades2 {
-    background-image: url(../img/hades2.jpeg);
+    background-image: url(../img/hades/hades2.jpg);
 }
 
 .ori3 {
-    background-image: url(../img/ori3.jpeg.jpg);
+    background-image: url(../img/ori/ori3.jpeg.jpg);
 }
 
 .mage {
-    background-image: url(../img/mage.avif);
+    background-image: url(../img/other/mage.avif);
 }
 
 .tendance {
@@ -241,14 +241,14 @@ h5 {
     text-align: center;
     color: white;
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 1.5em;
     padding-bottom: 5px;
     padding-top: 5px;
     text-shadow: 2px 2px 2px grey;
 }
 
 .textContact {
-font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     font-weight: bold;
     text-shadow: 1px 1px 1px grey;
