@@ -1,0 +1,260 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+.p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    background-color: black;
+    padding: 0;
+}
+
+.gg-navbar {
+    background-color: rgba(0, 0, 0, .55);
+    font-family: serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, .54);
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.gg-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.gg-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: white;
+}
+
+.btn-order {
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: black;
+    background-color: white;
+    ;
+}
+
+.carouselText {
+    padding-bottom: 120px !important;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.2em;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.introduction {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 2px grey;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.card-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.linkSite {
+    transition: 0.5s;
+    opacity: 0%;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px
+}
+
+.linkSite:hover {
+    opacity: 100%;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+
+}
+
+.trust-panel {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.trust-panel .container-fluid .feature .text {
+    line-height: 25px;
+}
+
+.subtext {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.maintext {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.yasuo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sardocheText {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.sardocheTitle {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px grey;
+}
+
+h4 {
+    font-size: 2em !important;
+    padding-top: 20px !important;
+}
+
+.stars {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.panels {
+    background-color: grey;
+    height: 98.5vh;
+    width: 98.5vw;
+
+    display: flex;
+}
+
+.panel {
+    height: 100%;
+    flex: 1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: flex 0.7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel:hover {
+    flex: 3;
+}
+
+.hollow2 {
+    background-image: url(../img/hollow/hsilksong.jpg);
+}
+
+.hades2 {
+    background-image: url(../img/hades/hades2.jpg);
+}
+
+.ori3 {
+    background-image: url(../img/ori/ori3.jpeg.jpg);
+}
+
+.mage {
+    background-image: url(../img/other/mage.avif);
+}
+
+.tendance {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4em;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px 2px grey;
+}
+
+iframe {
+    width: 750px;
+    height: 500px;
+}
+
+.bestsell {
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 25px !important;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.videohand {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.textContact {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+}
